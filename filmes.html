@@ -10,24 +10,50 @@
     <style>
         a,th,td, h1,h2,p {
             color: rgb(255, 255, 255);
+            
+        }
+        .fundo{
+
+            background-image:url(img/background.png);
+            background-size: 300px;
+            background-blend-mode:luminosity;
+        }
+        .head{
+
+            background-color: #0a2335;
+            background-size: 200px;
+        }
+        .Nav{
+
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-decoration:solid;
+            
+            
+        }
+        .fundo_Index_texto{
+            background-color: #0e3048;
+            background-blend-mode:overlay;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+            
         }
     </style>
 </head>
 
-<body style="background-color: rgb(2, 13, 54);">
+<body class="fundo" style="background-color: #0a2335;">
 
     <table border="0" align="center" width="100%" height="2">
 
         <thead>
             <thead>
-                <tr>
-                    <td width="20%"><a href="index.html"><img src="img/logo.png" alt="" width="300" height="20%"></a></td> <!--logo-->
+                <tr class="head">
+                    <td width="20%"><a href="index.html"><img src="img/logo.png" alt="" width="100%" height="20%"></a></td> <!--logo-->
                     <td><input type="text" name="search" id="" placeholder="Pesquise aqui" width="100%"></td>
                     <!--barra pesquisa-->
-                    <td align="center"><a href="filmes.html">Filmes</a></td>
-                    <td align="center"><a href="Series.html">Séries</a></td>
-                    <td align="center"><a href="Galeria.html">Galeria</a></td>
-                    <td align="center"><a href="contatos.html">Contatos</a></td>
+                     <td align="center"><a href="index.html" class="Nav">Home</a></td>
+                    <td align="center"><a href="filmes.html" class="Nav">Filmes</a></td>
+                    <td align="center"><a href="Series.html" class="Nav"> Séries</a></td>
+                    <td align="center"><a href="Galeria.html" class="Nav">Galeria</a></td>
+                    <td align="center"><a href="contatos.html" class="Nav">Contatos</a></td>
 
                 </tr>
             </thead>
@@ -40,28 +66,28 @@
         <thead align="center" >
             <tr>
                 <td colspan="100%">
-                    <fieldset><h1>Galeria de filmes (2025)</h1></fieldset>
+                    <fieldset><h1 class="fundo_Index_texto">Galeria de filmes (2025)</h1></fieldset>
                     
                 </td>
             </tr>
         </thead>
         <!------------------Superman---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">Superman (Super herói) <a href="https://www.youtube.com/watch?v=JeQnlT0DaG8"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=JeQnlT0DaG8" target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/archive/3/32/20250713174650%21Superman_%282025_film%29_poster.jpg" alt="poster" width="300">
                 </a>
             </td>
-            <td align="center" > <!--sinopse aqui-->
-                <p>
+            <td align="center" class="fundo_Index_texto"> <!--sinopse aqui-->
+                <p  >
                     Um herói movido pela crença e pela esperança na bondade da humanidade. Em Superman, acompanhamos a jornada do super-herói em tentar conciliar suas duas personas: sua herança extraterrestre como kryptoniano e sua vida humana, criado como Clark Kent (David Corenswet) na cidade de Smallville no Kansas. Dirigido por James Gunn, o novo filme irá reunir personagens, heróis e vilões clássicos da história de Superman, como Lex Luthor (Nicholas Hoult), Lois Lane (Rachel Brosnahan), Lanterna Verde (Nathan Fillion), Mulher-Gavião (Isabela Merced), entre outros. O chamado de Superman será colocado à prova através de uma série de novas aventuras épicas e diante de uma sociedade que enxerga seus valores de justiça e verdade como antiquados.
                 </p>
                 
@@ -75,14 +101,14 @@
         <!---------------fim do superman-------------->
         <!------------------Começo do Dracula---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">Drácula: Uma História de Amor Eterno (Suspense)<a href="https://www.youtube.com/watch?v=_tM4eSMqPwU"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=_tM4eSMqPwU"  target="_blank">
                     <img src="https://ingresso-a.akamaihd.net/prd/img/movie/dracula-uma-historia-de-amor-eterno/52f28b21-f4c2-4e64-ad26-239816cab521.webp" alt="poster" width="300">
@@ -110,14 +136,14 @@
         <!---------------fim do dracula-------------->
         <!------------------Começo do Sinners---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">Sinners (Suspense)<a href="https://www.youtube.com/watch?v=bKGxHflevuk"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=bKGxHflevuk"  target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Sinners_%282025_film%29_poster.jpg" alt="poster" width="300">
@@ -136,14 +162,14 @@
         <!---------------fim do sinners-------------->
         <!------------------Começo do 4fantastico---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">Quarteto Fantástico: Primeiros Passos (Super herói) <a href="https://www.youtube.com/watch?v=CcSIvhDlYWw"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=CcSIvhDlYWw"  target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/2/28/The_Fantastic_Four_First_Steps_%28cartaz_de_filme%29.jpg" alt="poster" width="300">
@@ -162,14 +188,14 @@
         <!---------------fim do 4fantastico-------------->
         <!------------------Começo do O macaco---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">O Macaco (Terror) <a href="https://www.youtube.com/watch?v=ZWdhgGTAelE"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=ZWdhgGTAelE"  target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/1/16/O_Macaco_2025.webp/310px-O_Macaco_2025.webp.png" alt="poster" width="300">
@@ -188,14 +214,14 @@
         <!---------------fim do O macaco-------------->
         <!------------------Começo do Invocação 4---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">Invocação do Mal 4: O Último Ritual<a href="https://www.youtube.com/watch?v=PK36Lr7dJU8"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=PK36Lr7dJU8"  target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/d/d8/The_Conjuring_%E2%80%93_Last_Rites.png" alt="poster" width="300">
@@ -214,14 +240,14 @@
         <!---------------fim do invocação 4-------------->
         <!------------------Começo do Bailarina---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">Bailarina: Do Universo de John Wick (Ação)<a href="https://www.youtube.com/watch?v=Ankeq0lh7Zw"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=Ankeq0lh7Zw"  target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/4/40/From_the_World_of_John_Wick_Ballerina.webp/338px-From_the_World_of_John_Wick_Ballerina.webp.png" alt="poster" width="300">
@@ -240,14 +266,14 @@
         <!---------------fim do Bailarina-------------->
         <!------------------Começo do premonição---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">Premonição 6: Laços de Sangue (Terror)<a href="https://www.youtube.com/watch?v=n4MNVSfse_4"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=n4MNVSfse_4"  target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/9/99/Premoni%C3%A7%C3%A3o_6_Lacosdesangue.webp/400px-Premoni%C3%A7%C3%A3o_6_Lacosdesangue.webp.png" alt="poster" width="300">
@@ -266,14 +292,14 @@
         <!---------------fim do premonição-------------->
         <!------------------Começo do Guerra dos mundos---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">A Guerra dos Mundos <a href="https://www.youtube.com/watch?v=7e0ZUd8l96I"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=7e0ZUd8l96I"  target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/en/2/29/War_of_the_Worlds_2025_official_poster.jpg" alt="poster" width="300">
@@ -292,14 +318,14 @@
         <!---------------fim do guerra dos mundos-------------->
         <!------------------Começo do Lobisomem---------------------------------------->
         <tr><!--titulo-->
-            <td width="20%">
+            <td width="20%" class="head">
                 <h2 align="center">Lobisomem<a href="https://www.youtube.com/watch?v=4e414vW9gFs"  target="_blank"><br><i>Trailer</i></a></h2>
             </td>
             <td>
-                <h2 align="center">Sinopse</h2>
+                <h2 align="center" class="fundo_Index_texto">Sinopse</h2>
             </td>
         </tr>
-        <tr>
+        <tr class="fundo_Index_texto">
             <td  align="center"> <!-- poster com link trailer-->
                 <a href="https://www.youtube.com/watch?v=4e414vW9gFs"  target="_blank">
                     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/56/Lobisomem_2025.webp/333px-Lobisomem_2025.webp.png" alt="poster" width="300">
@@ -320,15 +346,21 @@
     </table>
 
 </body>
-<footer>
+<footer align="center">
+        
 
-    <table align="center" border="0" width="100%">
+    <table align="center" border="0" width="100%" >
+
         <tr>
-            
-            <td align="center"><a href="filmes.html">Filmes</a></td>
-                    <td align="center"><a href="Series.html">Séries</a></td>
-                    <td align="center"><a href="Galeria.html">Galeria</a></td>
-                    <td align="center"><a href="contatos.html">Contatos</a></td>
+            <td colspan="100%"><hr></td>
+        </tr>
+
+        <tr class="head" height="50px">
+                <td align="center"><a href="index.html" class="Nav">Home</a></td>
+                <td align="center"><a href="filmes.html" class="Nav">Filmes</a></td>
+                <td align="center"><a href="Series.html" class="Nav"> Séries</a></td>
+                <td align="center"><a href="Galeria.html" class="Nav">Galeria</a></td>
+                <td align="center"><a href="contatos.html" class="Nav">Contatos</a></td>
         </tr>
         <tr>
             <td colspan="100%">
@@ -341,7 +373,7 @@
                 <p>Volte sempre!</p>
             </td>
             <TR>
-                <td colspan="100%">
+                <td colspan="100%" >
                     <p>Desenvolvido por Gustavo Feliciano</p>
                 </td>
             </TR>
